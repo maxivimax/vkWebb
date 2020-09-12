@@ -1,0 +1,156 @@
+@font-face {
+font-family: 'TT Commons DemiBold';
+src: url('../fonts/TTCommons-DemiBold.eot');
+src: url('../fonts/TTCommons-DemiBold.eot?#iefix') format('embedded-opentype'),
+url('../fonts/TTCommons-DemiBold.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'sf Pro Regular';
+src: url('../fonts/SFProDisplay-Regular.eot');
+src: url('../fonts/SFProDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+url('../fonts/SFProDisplay-Regular.woff') format('woff'),
+url('../fonts/SFProDisplay-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+    font-family: 'San Francisco Pro';
+    src: local('sf Pro Medium'), local('../fonts/San-Francisco-Pro-Display-Medium'),
+        url('../fonts/SFProDisplay-Medium.woff2') format('woff2'),
+        url('../fonts/SFProDisplay-Medium.woff') format('woff'),
+        url('../fonts/SFProDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+.title1{
+	position: static;
+  	padding-top: 25px;  
+
+	/* TT Commons Title 2 */
+
+	font-family: TT Commons DemiBold;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 50px;
+	line-height: 26px;
+	/* identical to box height, or 124% */
+
+	text-align: center;
+
+	/* Light Header / Text */
+
+	color: #000000;
+
+	/* Inside Auto Layout */
+
+	flex: none;
+	order: 0;
+	align-self: flex-start;
+	margin: 4px 0px;
+}
+.uptitle{
+	position: static;
+
+  	padding-top: 25px;
+
+	width: "100";
+	height: "100000";
+}
+
+.butta{
+	position: absolute;
+	width:100%;
+	top:50%;
+  	padding-top: 50px;  
+
+	/* TT Commons Title 2 */
+
+	font-family: sf Pro Regular;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	/* identical to box height, or 124% */
+
+	text-align: center;
+
+	/* Light Header / Text */
+
+	color: #818C99;
+}
+
+.butt{
+	text-decoration: none;
+}
+
+.buttonn{
+	background: #4986CC; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    padding: 20px; /* Поля вокруг текста */
+    padding-left: 35px; 
+    padding-right: 35px; 
+	border-radius: 20px;
+
+
+	font-family: sf Pro Medium
+	font-weight: normal;
+	font-size: 35px;
+}
+
+.back{
+position: static;
+  	padding-top: 20px;  
+
+	/* Inside Auto Layout */
+
+	flex: none;
+	order: 0;
+	align-self: flex-start;
+	margin: 4px 0px;
+}
+
+.vari{
+	position: absolute;
+	width:100%;
+	top:50%;
+  	padding-top: 50px;  
+
+	/* TT Commons Title 2 */
+
+	font-family: sf Pro Regular;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	/* identical to box height, or 124% */
+
+	text-align: center;
+
+	/* Light Header / Text */
+
+	color: #818C99;
+}
+
+.niz{
+		position: absolute;
+	width:100%;
+	top:50%;
+  	padding-top: 80%;  
+
+	/* TT Commons Title 2 */
+
+	font-family: sf Pro Regular;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	/* identical to box height, or 124% */
+
+	text-align: center;
+
+	/* Light Header / Text */
+
+	color: #818C99;
+}
